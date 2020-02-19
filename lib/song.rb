@@ -8,8 +8,8 @@ class Song
    @@all << self
  end
 
-def songs_list
-  @@all = all
+def self.all
+  @@all
 end
 
  def self.new_by_filename(file_name)
